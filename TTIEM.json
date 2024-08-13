@@ -1,0 +1,313 @@
+{
+    "version": 1,
+    "name": "Te Tauihu Innovation Ecosystem Map",
+    "description": "A comprehensive visualisation of stakeholders supporting the Innovation Ecosystem in Te Tauihu.",
+    "proxyImages": true,
+    "defaultMap": "map-TeTauihu",
+    "defaultPerspective": "pers-MāoriEconomy",
+    "attributeRelevance": {},
+    "attributes": [
+      {
+        "name": "Amount",
+        "format": "number",
+        "private": false,
+        "limit": 1,
+        "category": "General",
+        "prompt": "list",
+        "locked": false,
+        "values": [],
+        "sort": false,
+        "cluster": true
+      },
+      {
+        "name": "Board Members",
+        "format": "string",
+        "private": false,
+        "limit": "none",
+        "category": "General",
+        "prompt": "autocomplete",
+        "locked": false,
+        "values": [],
+        "sort": false,
+        "cluster": true
+      },
+      {
+        "name": "Connection Type",
+        "format": "string",
+        "private": false,
+        "limit": 1,
+        "category": "General",
+        "prompt": "list",
+        "locked": false,
+        "values": [
+          "Funding",
+          "Support",
+          "Membership",
+          "Partnership",
+          "Collaboration",
+          "Procurement"
+        ],
+        "sort": false,
+        "cluster": false
+      },
+      {
+        "name": "Data Sources",
+        "format": "url",
+        "private": true,
+        "limit": "none",
+        "category": "General",
+        "prompt": "none",
+        "locked": false,
+        "values": [
+          "https://docs.google.com/spreadsheets/d/1eTmdeCCbEN0zGBwC-IMZdO0IO8ekcpjlyxOpb95uhY0/edit"
+        ],
+        "sort": false,
+        "cluster": true
+      },
+      {
+        "name": "Date",
+        "format": "string",
+        "private": false,
+        "limit": 1,
+        "category": "General",
+        "prompt": "list",
+        "locked": false,
+        "values": [],
+        "sort": false,
+        "cluster": true
+      },
+      {
+        "name": "Description",
+        "format": "text",
+        "private": false,
+        "limit": 1,
+        "category": "General",
+        "prompt": "none",
+        "locked": false,
+        "values": [],
+        "sort": false,
+        "cluster": false
+      },
+      {
+        "name": "Element Type",
+        "format": "string",
+        "private": false,
+        "limit": 1,
+        "category": "General",
+        "prompt": "list",
+        "locked": false,
+        "values": [
+          "Organization",
+          "Person",
+          "Government Agency",
+          "Iwi",
+          "Funding Body"
+        ],
+        "sort": false,
+        "cluster": true
+      },
+      {
+        "name": "Location",
+        "format": "string",
+        "private": false,
+        "limit": 1,
+        "category": "General",
+        "prompt": "list",
+        "locked": false,
+        "values": [
+          "Te Tauihu",
+          "New Zealand",
+          "Other"
+        ],
+        "sort": false,
+        "cluster": true
+      },
+      {
+        "name": "Image",
+        "format": "image",
+        "private": true,
+        "limit": 1,
+        "category": "General",
+        "prompt": "autocomplete",
+        "locked": false,
+        "values": [],
+        "sort": false,
+        "cluster": true
+      },
+      {
+        "name": "Impact Area",
+        "format": "string",
+        "private": false,
+        "limit": 1,
+        "category": "General",
+        "prompt": "autocomplete",
+        "locked": false,
+        "values": [
+          "Economic Development",
+          "Social Impact",
+          "Cultural Preservation",
+          "Environmental Sustainability"
+        ],
+        "sort": false,
+        "cluster": true
+      },
+      {
+        "name": "Investor Type",
+        "format": "string",
+        "private": false,
+        "limit": 1,
+        "category": "General",
+        "prompt": "list",
+        "locked": false,
+        "values": [
+          "Institution",
+          "Angel",
+          null
+        ],
+        "sort": false,
+        "cluster": true
+      },
+      {
+        "name": "Label",
+        "format": "string",
+        "private": false,
+        "limit": 1,
+        "category": "General",
+        "prompt": "autocomplete",
+        "locked": false,
+        "values": [],
+        "sort": false,
+        "cluster": false
+      },
+      {
+        "name": "Loop Type",
+        "format": "string",
+        "private": false,
+        "limit": 1,
+        "category": "General",
+        "prompt": "list",
+        "locked": false,
+        "values": [],
+        "sort": false,
+        "cluster": false
+      },
+      {
+        "name": "Management",
+        "format": "string",
+        "private": false,
+        "limit": "none",
+        "category": "General",
+        "prompt": "autocomplete",
+        "locked": false,
+        "values": [],
+        "sort": false,
+        "cluster": true
+      },
+      {
+        "name": "Notes",
+        "format": "string",
+        "private": false,
+        "limit": 1,
+        "category": "General",
+        "prompt": "autocomplete",
+        "locked": false,
+        "values": [],
+        "sort": false,
+        "cluster": true
+      },
+      {
+        "name": "Settings:",
+        "format": "string",
+        "private": false,
+        "limit": "none",
+        "category": "General",
+        "prompt": "autocomplete",
+        "locked": false,
+        "values": [],
+        "sort": false,
+        "cluster": true
+      },
+      {
+        "name": "Structure",
+        "format": "string",
+        "private": false,
+        "limit": 1,
+        "category": "General",
+        "prompt": "list",
+        "locked": false,
+        "values": [
+          "B Corporation",
+          "For profit",
+          "Non profit",
+          "Hybrid",
+          null,
+          "for profit"
+        ],
+        "sort": false,
+        "cluster": true
+      },
+      {
+        "name": "Tags",
+        "format": "string",
+        "private": false,
+        "limit": "none",
+        "category": "General",
+        "prompt": "autocomplete",
+        "locked": false,
+        "values": [],
+        "sort": false,
+        "cluster": true
+      },
+      {
+        "name": "Total Round Size",
+        "format": "number",
+        "private": false,
+        "limit": 1,
+        "category": "General",
+        "prompt": "autocomplete",
+        "locked": false,
+        "values": [],
+        "sort": false,
+        "cluster": true
+      },
+      {
+        "name": "Website",
+        "format": "url",
+        "private": false,
+        "limit": 1,
+        "category": "General",
+        "prompt": "none",
+        "locked": false,
+        "values": [],
+        "sort": false,
+        "cluster": true
+      }
+    ],
+    "elements": [],
+    "connections": [],
+    "loops": [],
+    "maps": [
+      {
+        "_id": "map-TeTauihu",
+        "name": "Te Tauihu Innovation Ecosystem Map",
+        "description": "This map visualises the relationships and connections within the innovation ecosystem in Te Tauihu.",
+        "scale": 0.5625,
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "src": "https://docs.google.com/spreadsheets/d/1eTmdeCCbEN0zGBwC-IMZdO0IO8ekcpjlyxOpb95uhY0/edit",
+        "defaultPerspective": "pers-MāoriEconomy",
+        "defaultElementBehavior": "floating",
+        "defaultConnectionDirection": "undirected"
+      }
+    ],
+    "perspectives": [
+      {
+        "_id": "pers-MāoriEconomy",
+        "name": "Te Tauihu Innovation",
+        "style": "@settings {\n  cluster: \"management\" as \"person\", \"board members\" as \"person\";\n  layout-spring-strength: 1;\n  layout-gravity: 0.001;\n  layout-particle-charge: 200;\n  element-image-url: none;\n  element-padding: 10;\n  connection-curvature: 0;\n  focus: #unltd-usa out 99;\n  font-cutoff: 0;\n  image-cutoff: 0;\n}\n\n/* Person */\nelement[\"element type\"=\"Person\"] {\n  color: #97d7cd;\n  size: 20;\n  icon: user;\n}\n\n/* Organization */\nelement[\"element type\"=\"Organization\"] {\n  color: #cc3333;\n  size: 29;\n  shape: hexagon;\n}\n\n/* connections:  */\n[\"Connection Type\"=\"board member\"] {\n  color: #a7a7a7;\n  size: 2;\n}\n\n/* Connections: Investment */\nconnection[\"connection type\"=\"Funding\"] {\n  size: 2;\n  color: #32a852;\n}\n\nconnection[\"connection type\"=\"management\"] {\n  color: #a7a7a7;\n  size: 2;\n}\n\n"
+      }
+    ]
+  }
+  
